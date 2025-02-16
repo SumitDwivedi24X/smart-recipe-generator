@@ -46,7 +46,7 @@ export default function RecipeGenerator() {
     setRecipes([])
     setError(null)
 
-    const API_KEY = "AIzaSyDpf-o7QNrr9HsEXiBuNJyjxs9X7aYHNvc"
+    const API_KEY = "GEMINI_API_KEY";
 
     if (!API_KEY) {
       setError("API key is missing. Please check your environment variables.")
